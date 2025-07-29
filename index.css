@@ -87,6 +87,21 @@ main {
   height: auto;
   border-radius: 3px;
 }
+.more-articles {
+  background-color: rgba(0, 0, 0, 0.901);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 178px;
+  margin: 20px 0;
+  text-align: center;
+}
+.more-articles:hover {
+  opacity: 0.8;
+}
 @media screen and (max-width: 768px) {
   .lower {
     padding-right: 100px;
