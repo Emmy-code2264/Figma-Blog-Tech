@@ -1,5 +1,9 @@
+html {
+  margin: 0;
+  padding: 0;
+}
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: poppins, sans-serif;
 }
 /* top section */
 .topimg {
@@ -45,7 +49,6 @@ main {
   color: rgba(229, 229, 229, 1);
   font-size: 18px;
   line-height: 1.6;
-  font-family:'Times New Roman', Times, serif;
 }
 .content h1 {
   color: rgba(248, 249, 250, 1);
@@ -55,16 +58,16 @@ main {
   margin-bottom: 20px;
 }
 .lower {
-  margin: 20px;
+  width: 100%;
 }
 .cards {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
-  margin: 20px;
+  margin: 40px;
 }
 .cards p {
-  color: rgba(196, 196, 196, 1);
+  color: rgb(129, 117, 117);
   font-size: 10px;
   line-height: 1.6;
 }
@@ -75,14 +78,22 @@ main {
   left: 0px;
   
 }
+.post-card1 h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
 .post-card1 img {
   width: 100%;
   height: auto;
   border-radius: 3px;
 }
 @media screen and (max-width: 768px) {
+  .lower {
+    padding-right: 100px;
+  }
   .cards {
     grid-template-columns: repeat(2, 1fr);
+    background-size: cover;
   }
   .post-card1 {
     width: 100%;
