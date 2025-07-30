@@ -5,6 +5,7 @@ html {
 }
 body {
   font-family: poppins, sans-serif;
+  overflow-x: hidden;
 }
 /* top section */
 .topimg {
