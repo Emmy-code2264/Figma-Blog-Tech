@@ -41,8 +41,6 @@ nav a:hover {
 }
 main {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   padding: 60px;
 }
 .content p {
@@ -65,6 +63,7 @@ main {
   gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   margin: 40px;
+  position: relative;
 }
 .cards p {
   color: rgb(129, 117, 117);
@@ -86,11 +85,26 @@ main {
   width: 100%;
   height: auto;
   border-radius: 3px;
+  display: block;
 }
+.tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  }
+  .btn-wrap {
+    text-align: center;
+    margin-top: 20px;
+  }
 .more-articles {
   background-color: rgba(0, 0, 0, 0.901);
   color: white;
-  padding: 10px 20px;
+  padding: 15px 50px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
