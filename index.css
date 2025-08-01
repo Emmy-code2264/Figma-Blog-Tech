@@ -57,6 +57,7 @@ main {
   line-height: 40px;
   margin-bottom: 20px;
 }
+/*Middle section*/
 .lower {
   width: 100%;
 }
@@ -124,6 +125,7 @@ main {
 .more-articles:active {
   background-color: rgb(129, 117, 117);
 }
+/*base section*/
 .base-container {
   display: flex;
   height: auto;
@@ -152,7 +154,7 @@ main {
 }
 .card img {
   width: 300px;
-  height: auto;
+  height: 200px;
   border-radius: 6px;
   object-fit: cover;
   margin-right: 20px;
