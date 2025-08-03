@@ -64,7 +64,7 @@ main {
 .cards {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 40px;
   position: relative;
 }
@@ -186,10 +186,16 @@ main {
   font-weight: 400;
   letter-spacing: 0%;
 }
+.logo3 {
+  padding: min(50px, 7%);
+  font-size: bold;
+  color: rgb(52, 34, 34);
+  font-size: large;
+}
 .cards2 {
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 20px;
   position: relative;
 }
@@ -264,10 +270,10 @@ main {
     padding-right: 100px;
   }
   /*Middle-sec*/
-  .cards {
+  /* .cards {
     grid-template-columns: repeat(2, 1fr);
     background-size: cover;
-  }
+  } */
   .post-card1 {
     width: 100%;
   }
